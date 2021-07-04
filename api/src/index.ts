@@ -1,6 +1,11 @@
 import express from 'express';
 import cors from 'cors';
 import routes from './routes';
+import db from './database';
+
+db.authenticate()
+    .then(() => console.log('db connected'))
+    .catch(err => console.log('error: ' + err));
 
 const app = express();
 
