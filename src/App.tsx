@@ -5,6 +5,7 @@ import { Switch as MaterialSwitch } from '@material-ui/core';
 
 import Paper from '@material-ui/core/Paper';
 import LoginPage from './pages/Login';
+import HomePage from './pages/Home';
 
 import './App.css'
 
@@ -22,6 +23,8 @@ function App() {
         <Router>
           <Switch>
             <Route path="/" exact component={LoginPage} />
+            <Route path="/login" exact component={LoginPage} />
+            <Route path="/home" exact component={HomePage} />
           </Switch>
         </Router>
       </Paper>
