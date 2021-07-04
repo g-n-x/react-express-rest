@@ -5,4 +5,4 @@ project to practice
 - typescript
 - rest
 
-`yarn dev`starts the application
+`yarn dev` starts the application
