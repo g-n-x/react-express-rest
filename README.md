@@ -4,4 +4,5 @@ project to practice
 - express
 - typescript
 - rest
-`yarn dev` starts the application
+
+`yarn dev`starts the application
