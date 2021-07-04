@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import {
     Button,
     Container,
@@ -25,6 +26,7 @@ const LoginPage = () => {
                         margin: '0 auto'
                     }}
                 >
+                    <img src={logo} />
                     <TextField label="username" />
                     <TextField label="email" type="email" />
                     <TextField label="password" type="password" />
