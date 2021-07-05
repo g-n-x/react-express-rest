@@ -5,6 +5,10 @@
       "dom.iterable",
       "esnext"
     ],
+    "target": "es6",
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -19,6 +23,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src", "api/src"
   ]
 }

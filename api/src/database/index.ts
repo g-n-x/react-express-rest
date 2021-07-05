@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize';
 const db = new Sequelize('mydb', 'postgres', 'postgres', {
-    host: 'localhost',
+    host: '172.26.80.1',
     dialect: 'postgres',
     pool: {
         max: 5,
