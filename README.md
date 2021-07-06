@@ -6,3 +6,8 @@ project to practice
 - rest
 
 `yarn dev` starts the application
+
+this project requires a .env with the following
+- DB_HOST
+- DB_USER
+- DB_PASS
