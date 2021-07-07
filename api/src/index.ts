@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import cors from 'cors';
 import routes from './routes';
 import db from './database';
@@ -11,8 +11,9 @@ const app = express();
 
 app.use(cors());
 
-app.get('/', (_req, res) => {
-    res.status(200).send('go away');
+app.get('/', (_req: Request, res: Response) => {
+    res.statusCode = 200;
+    res.send('go away');
 });
 
 app.use('/', routes);

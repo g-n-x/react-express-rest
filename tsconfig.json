@@ -21,10 +21,12 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "module": "esnext"
+    "module": "esnext",
+    "outDir": "./build"
   },
   "include": [
     "src",
     "api/src"
-  ]
+  ],
+  "exclude": ["node_modules"]
 }
